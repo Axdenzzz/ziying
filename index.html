@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Ziying ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Landing Page -->
+
+        <div id="landing">
+
+            <h1>For Ziying ❤️</h1>
+
+            <p>
+                I made something special for you.
+            </p>
+
+            <p>
+                But first, you'll have to prove you know us.
+            </p>
+
+            <button onclick="showQuiz()">
+                Start Quiz
+            </button>
+
+        </div>
+
+        <!-- Quiz Page -->
+
+        <div id="quiz" class="hidden">
+
+            <h2 id="questionNumber">
+                Question 1/5 ❤️
+            </h2>
+
+            <p id="questionText">
+                Question goes here
+            </p>
+
+            <input
+                id="answer"
+                placeholder="Type your answer">
+
+            <button onclick="nextQuestion()">
+                Next
+            </button>
+
+        </div>
+
+        <!-- Success Page -->
+
+        <div id="success" class="hidden">
+
+            <h1>Access Granted 🔓❤️</h1>
+
+            <p>
+                I hope you like it baby~
+                👉👈
+            </p>
+
+            <button onclick="showGift()">
+                Open My Song 
+            </button>
+
+        </div>
+
+        <!-- Gift Page -->
+
+        <div id="gift" class="hidden">
+
+            <h1>My Song For You ❤️</h1>
+
+            <audio controls>
+
+                <source src="song.mp3" type="audio/mpeg">
+
+            </audio>
+
+            <h2>Lyrics</h2>
+
+            <p>
+                Put your lyrics here.
+            </p>
+
+            <h2>Letter</h2>
+
+            <p>
+                Dear Ziying,
+                <br><br>
+                Put your message here.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
