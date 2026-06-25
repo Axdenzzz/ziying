@@ -51,7 +51,10 @@ const questions = [
             "i am loved",
             "i deserve to live",
             "that i deserve to live",
-            "im perfect just the way i am"
+            "im yours",
+            "you're mine",
+            "youre mine",
+            "im perfect just the way i am",
             
         ]
     }
